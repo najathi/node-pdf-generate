@@ -7,13 +7,13 @@ const fs = require("fs");
 // );
 
 // read file
-// wkhtmltopdf(fs.readFileSync("./assets/invoice.html"), {}).pipe(
-//     fs.createWriteStream("out.pdf")
-// );
+wkhtmltopdf(fs.readFileSync("./assets/invoice.html"), {}).pipe(
+    fs.createWriteStream("out.pdf")
+);
 
 // another way read file
-wkhtmltopdf(fs.readFileSync("./assets/invoice.html", "utf-8"), {
-    pageWidth: "210",
-    pageHeight: "297",
-    output: "./output/out.pdf",
-});
+// wkhtmltopdf(fs.readFileSync("./assets/invoice.html", "utf-8"), {
+//     pageWidth: "210",
+//     pageHeight: "297",
+//     output: "./output/out.pdf",
+// });
