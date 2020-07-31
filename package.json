@@ -1,0 +1,17 @@
+{
+    "name": "node-pdf-generate",
+    "description": "pdf-generate - HTML to PDF",
+    "version": "1.0.101",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Najathi <najathi@live.com>",
+    "license": "",
+    "devDependencies": {
+        "@types/node": "^11.13.4"
+    },
+    "dependencies": {
+        "wkhtmltopdf": "^0.3.4"
+    }
+}
