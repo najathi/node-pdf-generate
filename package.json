@@ -3,15 +3,18 @@
     "description": "pdf-generate - HTML to PDF",
     "version": "1.0.101",
     "scripts": {
-        "start": "node index.js"
+        "start": "nodemon app.js",
+    	"server-start": "node app.js"
     },
     "keywords": [],
     "author": "Najathi <najathi@live.com>",
     "license": "",
     "devDependencies": {
-        "@types/node": "^11.13.4"
+        "@types/node": "^11.13.4",
+        "nodemon": "^2.0.4"
     },
     "dependencies": {
+        "express": "^4.17.1",
         "wkhtmltopdf": "^0.3.4"
     }
 }
